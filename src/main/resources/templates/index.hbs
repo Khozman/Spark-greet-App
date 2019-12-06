@@ -1,0 +1,16 @@
+
+{{#partial "body"}}
+    <h1>Hello App</h1>
+    <!--    <a href="/hello">hello</a>-->
+
+    <form method="post" action="/greet">
+        <div>
+            <input type="text" name="firstName">
+        </div>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+{{/partial}}
+
+{{> layout.hbs }}
